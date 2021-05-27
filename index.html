@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .logo{
+            background-color: teal;
+            background-image: url(LOGO.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+
+            height: 200px;
+        }
+        .blabla{
+            padding: 30px !important;
+        }
+        .bgheader{
+            background: rgb(134,130,131);
+            background: linear-gradient(180deg, rgba(134,130,131,1) 0%, rgba(182,178,179,1) 9%, rgba(208,204,204,1) 16%, rgba(220,216,216,1) 22%, rgba(225,221,221,1) 27%, rgba(230,226,226,1) 31%, rgba(244,240,239,1) 55%, rgba(244,240,239,1) 100%);
+        }
+        .bgcarou{
+            background-color: #f4f0ef;
+        }
+        .non{
+            height: 100px;
+        }
+        .oui{
+            height: 100vh;
+        }
+        .vinylRow{
+            height: 100vh;
+            background: rgb(19,141,183);
+            background: linear-gradient(180deg, rgba(19,141,183,1) 0%, rgba(82,155,159,1) 58%, rgba(195,179,116,1) 100%);
+        }
+        .equipRow{
+            height: 100vh;
+            background: rgb(195,179,116);
+            background: linear-gradient(180deg, rgba(195,179,116,1) 0%, rgba(203,169,99,1) 77%, rgba(199,147,69,1) 100%);
+        }
+        .merchRow{
+            height: 100vh;
+            background: rgb(199,147,69);
+            background: linear-gradient(180deg, rgba(199,147,69,1) 0%, rgba(188,133,61,1) 74%, rgba(145,99,64,1) 100%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid p-0">
+        <div class="row bgheader blabla">
+            <div class="col oui">
+                <div class="logo"></div>
+
+
+        <div class="row sticky-top m-0">
+            <div class="col p-0 m-0">
+                <nav id="navbar" class="navbar navbar-light bg-danger m-0 non">
+                    <ul class="nav nav-pills justify-content-around w-100">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Vinyl</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Equipement</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Merch</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Cart</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+
+        <div id="myrow1" class="row p-0 m-0"></div>
+        <div id="myrow2" class="row p-0 m-0"></div>
+
+        <!-- <div id="vinylRow" class="row vinylRow p-0 m-0"></div>
+
+        <div id="equipRow" class="row equipRow p-0 m-0"></div>
+
+        <div id="merchRow" class="row merchRow p-0 m-0"></div> -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src ="assets/js/script.js"></script>
+</body>
+</html>
